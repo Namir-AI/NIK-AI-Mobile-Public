@@ -1,0 +1,77 @@
+# Android Studio / IntelliJ machine state
+.idea/
+*.iml
+
+# Gradle, Kotlin, and Android build output
+.gradle/
+.kotlin/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# Local Android SDK and signing configuration
+local.properties
+keystore.properties
+signing.properties
+*.jks
+*.keystore
+*.ks
+*.pkcs12
+*.p12
+*.pfx
+*.pkcs8
+signing.local.properties
+signing-*.properties
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+**/transport_token
+**/.nik_ai/
+*.pem
+*.key
+
+# Local model artifacts
+*.gguf
+*.ggml
+*.safetensors
+*.onnx
+
+# Flask runtime data: conversations, memories, settings, and uploads
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+backend-reference/settings.json
+backend-upgrade/settings.json
+backend-reference/documents/
+backend-upgrade/documents/
+backend-reference/uploads/
+backend-upgrade/uploads/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Logs, process files, editor backups, and physical-test artifacts
+*.log
+*.pid
+*.tmp
+*.temp
+*.bak
+*.swp
+/.phase*
+/phase*.xml
+/phase*.png
+/phase*.log
+/window.xml
+/uiautomator*.xml
+
+# OS metadata
+.DS_Store
+Thumbs.db
