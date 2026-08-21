@@ -2,6 +2,10 @@
 
 A local-first Android AI assistant project that combines a native mobile interface with on-device/local LLM inference, persistent memory, conversation history, and document RAG.
 
+## Source availability
+
+This public repository is a sanitized portfolio edition. It contains selected documentation, configuration examples, architecture material, and representative code suitable for public review. The complete working development repository and full implementation are maintained privately.
+
 ## Project goal
 
 NIK AI Mobile explores how much of a practical AI-assistant stack can run locally around an Android phone while keeping model inference and application data under user control.
